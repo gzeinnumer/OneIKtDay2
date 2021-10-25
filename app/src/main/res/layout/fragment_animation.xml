@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-<!--todo 14-->
     <Button
         android:id="@+id/buttonAnimation"
         android:layout_width="wrap_content"
@@ -32,5 +31,4 @@
         app:volColor1="#FFEB3B"
         app:volColor2="#CDDC39"
         app:volColor3="#009688" />
-<!--end todo 14-->
 </androidx.constraintlayout.widget.ConstraintLayout>

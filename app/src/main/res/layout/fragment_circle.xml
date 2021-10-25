@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!--todo 18-->
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
@@ -32,5 +31,4 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
-    <!--end todo 18-->
 </androidx.constraintlayout.widget.ConstraintLayout>

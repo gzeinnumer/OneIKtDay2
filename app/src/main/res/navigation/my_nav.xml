@@ -5,7 +5,6 @@
     android:id="@+id/my_nav"
     app:startDestination="@id/customViewFragment">
 
-    <!--todo 4-->
     <fragment
         android:id="@+id/customViewFragment"
         android:name="com.gzeinnumer.oneiktday2.fr.CustomViewFragment"
@@ -21,4 +20,11 @@
         android:name="com.gzeinnumer.oneiktday2.fr.CircleFragment"
         android:label="fragment_circle"
         tools:layout="@layout/fragment_circle" />
+    <!--todo 20-->
+    <fragment
+        android:id="@+id/javaCVFragment"
+        android:name="com.gzeinnumer.oneiktday2.fr.JavaCVFragment"
+        android:label="fragment_java_c_v"
+        tools:layout="@layout/fragment_java_c_v" />
+    <!--end todo 20-->
 </navigation>

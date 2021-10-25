@@ -11,7 +11,6 @@ import android.viewbinding.library.fragment.viewBinding
 import com.gzeinnumer.oneiktday2.R
 import com.gzeinnumer.oneiktday2.databinding.FragmentAnimationBinding
 
-//todo 6
 class AnimationFragment : Fragment(R.layout.fragment_animation) {
 
     private val binding: FragmentAnimationBinding by viewBinding()
@@ -19,7 +18,6 @@ class AnimationFragment : Fragment(R.layout.fragment_animation) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        //todo 15
         binding.buttonAnimation.setOnClickListener {
 //            animateParalel()
 //            rotate()
@@ -30,7 +28,6 @@ class AnimationFragment : Fragment(R.layout.fragment_animation) {
         }
     }
 
-    //todo 16
     private fun rotate() {
         val animator = ObjectAnimator
             .ofFloat(binding.imageView, View.ROTATION, -360f, 0f)
@@ -102,5 +99,4 @@ class AnimationFragment : Fragment(R.layout.fragment_animation) {
         animSet.duration = 500
         animSet.start()
     }
-    //end todo 16
 }

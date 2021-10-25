@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!--todo 13-->
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
@@ -32,6 +31,5 @@
         app:volColor1="#FFEB3B"
         app:volColor2="#CDDC39"
         app:volColor3="#009688" />
-    <!--end todo 13-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

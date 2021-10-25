@@ -9,7 +9,6 @@ import android.view.View
 import androidx.core.content.withStyledAttributes
 import com.gzeinnumer.oneiktday2.R
 
-//todo 17
 class CustomCircleView@JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,

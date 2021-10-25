@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".fr.JavaCVFragment">
+
+    <!--todo 21-->
+    <com.gzeinnumer.dr.DynamicRadioButton
+        android:id="@+id/dr1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:orientationRadioButton="vertical"
+        app:style="@style/def_radioButtonStyle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="16dp"
+        android:background="@color/purple_500" />
+
+    <com.gzeinnumer.dr.DynamicRadioButton
+        android:id="@+id/dr2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:orientationRadioButton="vertical"
+        app:style="@style/def_radioButtonStyle" />
+    <!--end todo 21-->
+</LinearLayout>

@@ -10,7 +10,6 @@ import kotlin.math.cos
 import kotlin.math.min
 import kotlin.math.sin
 
-//todo 11
 private enum class VolumeSteps(val label: Int){
     OFF(R.string.volume_off),
     LOW(R.string.volume_low),

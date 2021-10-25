@@ -7,7 +7,6 @@ import android.viewbinding.library.fragment.viewBinding
 import com.gzeinnumer.oneiktday2.R
 import com.gzeinnumer.oneiktday2.databinding.FragmentCustomViewBinding
 
-//todo 5
 class CustomViewFragment : Fragment(R.layout.fragment_custom_view) {
 
     private val binding: FragmentCustomViewBinding by viewBinding()

@@ -13,20 +13,19 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //todo 10
         setSupportActionBar(findViewById(R.id.toolbar))
         val navController = findNavController(R.id.fragmentContainerView)
         val appBarConfiguration = AppBarConfiguration(
             setOf(
                 R.id.customViewFragment,
                 R.id.animationFragment,
-                R.id.circleFragment
+                R.id.circleFragment,
+                R.id.javaCVFragment //todo 25
             )
         )
 
         setupActionBarWithNavController(navController, appBarConfiguration)
 
         findViewById<BottomNavigationView>(R.id.nav_view).setupWithNavController(navController)
-        //end todo 10
     }
 }

@@ -7,7 +7,6 @@ import android.viewbinding.library.fragment.viewBinding
 import com.gzeinnumer.oneiktday2.R
 import com.gzeinnumer.oneiktday2.databinding.FragmentCircleBinding
 
-//todo 7
 class CircleFragment : Fragment(R.layout.fragment_circle) {
 
     private val binding: FragmentCircleBinding by viewBinding()
