@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/customViewFragment">
+
+    <!--todo 4-->
+    <fragment
+        android:id="@+id/customViewFragment"
+        android:name="com.gzeinnumer.oneiktday2.fr.CustomViewFragment"
+        android:label="fragment_custom_view"
+        tools:layout="@layout/fragment_custom_view" />
+    <fragment
+        android:id="@+id/animationFragment"
+        android:name="com.gzeinnumer.oneiktday2.fr.AnimationFragment"
+        android:label="fragment_animation"
+        tools:layout="@layout/fragment_animation" />
+    <fragment
+        android:id="@+id/circleFragment"
+        android:name="com.gzeinnumer.oneiktday2.fr.CircleFragment"
+        android:label="fragment_circle"
+        tools:layout="@layout/fragment_circle" />
+</navigation>

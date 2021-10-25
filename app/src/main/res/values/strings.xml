@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">OneI Kt Day 2</string>
+
+    <string name="volume_off">off</string>
+    <string name="volume_low">1</string>
+    <string name="volume_medium">2</string>
+    <string name="volume_high">3</string>
+</resources>

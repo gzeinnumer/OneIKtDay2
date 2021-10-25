@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/customViewFragment"
+        android:icon="@drawable/ic_android_black_24dp"
+        android:title="CustomView" />
+    <item
+        android:id="@id/animationFragment"
+        android:icon="@drawable/ic_android_black_24dp"
+        android:title="Animation" />
+    <item
+        android:id="@id/circleFragment"
+        android:icon="@drawable/ic_android_black_24dp"
+        android:title="Circle" />
+</menu>
